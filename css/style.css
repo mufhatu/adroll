@@ -1,0 +1,55 @@
+.bg{
+
+background: linear-gradient(90deg, rgb(33, 33, 46) 0%, rgba(23,23,93,1) 45%, rgba(0,212,255,1) 100%);
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-brand:hover {
+    color: dodgerblue;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+    color: dodgerblue;
+}
+
+#img{
+ width:527px;
+ height: 450px;
+ border-radius: 5%;
+}
+
+
+.intro{
+    color:#fff;
+}
+
+.info{
+    align-content: center;
+    color: #fff;
+}
+.report{
+    width:400px;
+    height:auto;
+}
+
+.footer a {
+    color:white;
+}
+
+@media (max-width:768px) {
+    #img{
+        width:100%;
+        height: auto;
+    }
+    .report{
+        width:100%;
+        height: auto;
+        
+    }
+
+}
